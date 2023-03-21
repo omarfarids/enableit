@@ -1,0 +1,26 @@
+.single-card {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (min-width: 350px){
+    .single-card {
+        width: 300px;
+    }
+}
+
+.card-head {
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.single-email {
+    word-break: break-all;
+    padding-left: 10px;
+}
